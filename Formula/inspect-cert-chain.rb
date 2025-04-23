@@ -18,5 +18,9 @@ class InspectCertChain < Formula
     def install
       bin.install "inspect-cert-chain"
     end
+
+    test do
+      assert_match "inspect-cert-chain #{version}", shell_output("#{bin}/inspect-cert-chain --version 2>&1", 2)
+    end
   end
 end
