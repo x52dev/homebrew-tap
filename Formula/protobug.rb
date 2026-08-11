@@ -2,20 +2,20 @@ class Protobug < Formula
   # x52-release-tools: begin metadata
   desc "Interactive terminal debugger for protobuf payloads"
   homepage "https://github.com/x52dev/protobug"
-  version "0.3.3"
+  version "0.3.4"
   license "MIT OR Apache-2.0"
   # x52-release-tools: end metadata
 
   on_macos do
     # x52-release-tools: begin macos artifacts
     on_arm do
-      url "https://github.com/x52dev/protobug/releases/download/protobug-v0.3.3/protobug-aarch64-apple-darwin.tar.gz"
-      sha256 "fd9137876f4d05b0fbbbb398a3b60fee82fb8a15c4bb63c1fb97001a2ddc01e9"
+      url "https://github.com/x52dev/protobug/releases/download/protobug-v0.3.4/protobug-aarch64-apple-darwin.tar.gz"
+      sha256 "878115ba44be0e4520ad13f6df38ea978418482e5277a9ac8ac43361ff502953"
     end
 
     on_intel do
-      url "https://github.com/x52dev/protobug/releases/download/protobug-v0.3.3/protobug-x86_64-apple-darwin.tar.gz"
-      sha256 "20e00dc787c199478746edfc266a2ed1b08aa7641373eacd8e520a4d4aac4541"
+      url "https://github.com/x52dev/protobug/releases/download/protobug-v0.3.4/protobug-x86_64-apple-darwin.tar.gz"
+      sha256 "9a12e058f3641851ebabccd487150b244ebbc67a13c9b8358035c4b983ddf3c8"
     end
     # x52-release-tools: end macos artifacts
 
