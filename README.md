@@ -1,6 +1,6 @@
 # x52dev Homebrew tap
 
-[![Discord: Join chat](https://img.shields.io/badge/Discord-Join%20chat-5865F2?logo=discord&logoColor=white)](https://discord.gg/AH7ptnNfrd)
+[![Chat on Discord](https://img.shields.io/discord/1554698838651179088?label=chat&logo=discord)](https://discord.gg/AH7ptnNfrd)
 
 This tap packages command-line tools published by [x52dev](https://github.com/x52dev) and [robjtede](https://github.com/robjtede).
 
