@@ -1,21 +1,21 @@
 class DependabotReviewer < Formula
   # x52-release-tools: begin metadata
-  desc "Review, rebase, recreate, and merge Dependabot pull requests across GitHub repositories"
+  desc "Review, close, rebase, recreate, and merge Dependabot pull requests across GitHub repositories"
   homepage "https://github.com/robjtede/dependabot-reviewer"
-  version "0.1.3"
+  version "0.1.9"
   license "MIT OR Apache-2.0"
   # x52-release-tools: end metadata
 
   on_macos do
     # x52-release-tools: begin macos artifacts
     on_arm do
-      url "https://github.com/robjtede/dependabot-reviewer/releases/download/v0.1.3/dependabot-reviewer-aarch64-apple-darwin.tar.gz"
-      sha256 "5284b3e0e67d1c51f797066fc54308f332ae68857fea74676de6da3edd48eee8"
+      url "https://github.com/robjtede/dependabot-reviewer/releases/download/v0.1.9/dependabot-reviewer-aarch64-apple-darwin.tar.gz"
+      sha256 "f1d2012e5de5e1de7a58daca9292d12e65855c7b9c6365bb168d916fd21955c0"
     end
 
     on_intel do
-      url "https://github.com/robjtede/dependabot-reviewer/releases/download/v0.1.3/dependabot-reviewer-x86_64-apple-darwin.tar.gz"
-      sha256 "9ee5ff2627d7c9d7adc032ea58a7480f52ca02b4f87cef67300e2355fcc99e2d"
+      url "https://github.com/robjtede/dependabot-reviewer/releases/download/v0.1.9/dependabot-reviewer-x86_64-apple-darwin.tar.gz"
+      sha256 "84646a350e0a6368a021743a67bc87ad4f44136a8dca34402b572d68d86addee"
     end
     # x52-release-tools: end macos artifacts
 
