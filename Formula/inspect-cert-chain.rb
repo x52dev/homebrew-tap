@@ -2,20 +2,20 @@ class InspectCertChain < Formula
   # x52-release-tools: begin metadata
   desc "OpenSSL-like text output for debugging certificate chains"
   homepage "https://github.com/x52dev/inspect-cert-chain"
-  version "0.0.42"
+  version "0.0.43"
   license "MIT OR Apache-2.0"
   # x52-release-tools: end metadata
 
   on_macos do
     # x52-release-tools: begin macos artifacts
     on_arm do
-      url "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.42/inspect-cert-chain-aarch64-apple-darwin.tar.gz"
-      sha256 "e7260f81e38cd7ce350030e9c38bd81dc98b19da8082ca3caf40423e272a7f8a"
+      url "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.43/inspect-cert-chain-aarch64-apple-darwin.tar.gz"
+      sha256 "5090835d0ba221234e234cf530c5f8ec2e74b7590e93ed6cc839efd7cdca358e"
     end
 
     on_intel do
-      url "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.42/inspect-cert-chain-x86_64-apple-darwin.tar.gz"
-      sha256 "bd61edfc4c3d66dc866673b908377598bb5eadddd00203918e3c0170bb4991ff"
+      url "https://github.com/x52dev/inspect-cert-chain/releases/download/v0.0.43/inspect-cert-chain-x86_64-apple-darwin.tar.gz"
+      sha256 "f9fb4b677ba3f03120a1bed6694349d5e22e71f5458869e9bf5b5a2a1b7227ed"
     end
     # x52-release-tools: end macos artifacts
 
